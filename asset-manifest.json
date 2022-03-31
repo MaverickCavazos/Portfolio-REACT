@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/pages-practice/static/css/main.b5c16702.css",
-    "main.js": "/pages-practice/static/js/main.435cc8fa.js",
+    "main.js": "/pages-practice/static/js/main.75d4e5c7.js",
     "static/js/787.3535a2ce.chunk.js": "/pages-practice/static/js/787.3535a2ce.chunk.js",
     "static/media/coding-buddy-img.jpg": "/pages-practice/static/media/coding-buddy-img.9c6e6a361b67d6102124.jpg",
     "static/media/covidtracker.jpg": "/pages-practice/static/media/covidtracker.7ebe165dcfdb059690e3.jpg",
     "static/media/minimal.png": "/pages-practice/static/media/minimal.c63f868bbe4cc13b4fd6.png",
     "index.html": "/pages-practice/index.html",
     "main.b5c16702.css.map": "/pages-practice/static/css/main.b5c16702.css.map",
-    "main.435cc8fa.js.map": "/pages-practice/static/js/main.435cc8fa.js.map",
+    "main.75d4e5c7.js.map": "/pages-practice/static/js/main.75d4e5c7.js.map",
     "787.3535a2ce.chunk.js.map": "/pages-practice/static/js/787.3535a2ce.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b5c16702.css",
-    "static/js/main.435cc8fa.js"
+    "static/js/main.75d4e5c7.js"
   ]
 }
