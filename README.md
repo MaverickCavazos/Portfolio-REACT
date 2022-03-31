@@ -20,4 +20,4 @@ This application is used to display all of my work throughout the University of 
 
 Image of the deployed app ![Screenshot](./src/components/images/screenshot.png)
 
-link to deployed app via github pages https://maverickcavazos.github.io/react-portfolio/
+link to deployed app via github pages https://maverickcavazos.github.io/pages-practice/
