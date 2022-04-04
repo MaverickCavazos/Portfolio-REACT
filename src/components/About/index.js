@@ -1,10 +1,11 @@
 import React from 'react';
+import ProfilePic from '../images/profilepic.png'
 
 function About() {
     return (
         <header className="section-header" >
             <h2 className="section-h2">About Me</h2>
-            <img className="profile-pic" src="profilepic.png" alt="Pic of Me"/>
+            <img className="profile-pic" src={ProfilePic} alt="Pic of Me"/>
             <p>
                 Thank you for visiting my portfolio! I hope you enjoy your stay. This website built using react, 
                 as well as everything else you will find either in the portfolio section or by visiting my github link down below <br/>
