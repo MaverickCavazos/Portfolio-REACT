@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/Portfolio-REACT/static/css/main.bb0be107.css",
-    "main.js": "/Portfolio-REACT/static/js/main.3ddd1c7d.js",
+    "main.css": "/Portfolio-REACT/static/css/main.695a7bc1.css",
+    "main.js": "/Portfolio-REACT/static/js/main.effd4dc6.js",
     "static/js/787.3535a2ce.chunk.js": "/Portfolio-REACT/static/js/787.3535a2ce.chunk.js",
     "static/media/profilepic.png": "/Portfolio-REACT/static/media/profilepic.144a1623c21fd92ea4d7.png",
-    "static/media/hello.png": "/Portfolio-REACT/static/media/hello.3f448fbf9004154ee445.png",
     "static/media/coding-buddy-img.jpg": "/Portfolio-REACT/static/media/coding-buddy-img.9c6e6a361b67d6102124.jpg",
     "static/media/stack.png": "/Portfolio-REACT/static/media/stack.e3e80979e4b5dc2c638e.png",
     "static/media/covidtracker.jpg": "/Portfolio-REACT/static/media/covidtracker.7ebe165dcfdb059690e3.jpg",
@@ -12,12 +11,12 @@
     "static/media/linkedin.png": "/Portfolio-REACT/static/media/linkedin.6bd2afc872abe6892534.png",
     "static/media/github.png": "/Portfolio-REACT/static/media/github.165fab436b69b95fe860.png",
     "index.html": "/Portfolio-REACT/index.html",
-    "main.bb0be107.css.map": "/Portfolio-REACT/static/css/main.bb0be107.css.map",
-    "main.3ddd1c7d.js.map": "/Portfolio-REACT/static/js/main.3ddd1c7d.js.map",
+    "main.695a7bc1.css.map": "/Portfolio-REACT/static/css/main.695a7bc1.css.map",
+    "main.effd4dc6.js.map": "/Portfolio-REACT/static/js/main.effd4dc6.js.map",
     "787.3535a2ce.chunk.js.map": "/Portfolio-REACT/static/js/787.3535a2ce.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb0be107.css",
-    "static/js/main.3ddd1c7d.js"
+    "static/css/main.695a7bc1.css",
+    "static/js/main.effd4dc6.js"
   ]
 }
