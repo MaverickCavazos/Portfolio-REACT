@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/pages-practice/static/css/main.b5c16702.css",
-    "main.js": "/pages-practice/static/js/main.8750b9e5.js",
+    "main.css": "/pages-practice/static/css/main.a5a492ba.css",
+    "main.js": "/pages-practice/static/js/main.d7e18121.js",
     "static/js/787.3535a2ce.chunk.js": "/pages-practice/static/js/787.3535a2ce.chunk.js",
     "static/media/profilepic.png": "/pages-practice/static/media/profilepic.144a1623c21fd92ea4d7.png",
+    "static/media/hello.png": "/pages-practice/static/media/hello.3f448fbf9004154ee445.png",
     "static/media/coding-buddy-img.jpg": "/pages-practice/static/media/coding-buddy-img.9c6e6a361b67d6102124.jpg",
+    "static/media/stack.png": "/pages-practice/static/media/stack.e3e80979e4b5dc2c638e.png",
     "static/media/covidtracker.jpg": "/pages-practice/static/media/covidtracker.7ebe165dcfdb059690e3.jpg",
-    "static/media/minimal.png": "/pages-practice/static/media/minimal.c63f868bbe4cc13b4fd6.png",
-    "static/media/stack.png": "/pages-practice/static/media/stack.187bd9537206dfe7a6d5.png",
-    "static/media/linkedin.png": "/pages-practice/static/media/linkedin.8f48b5fae4274d95adc2.png",
+    "static/media/Resume.pdf": "/pages-practice/static/media/Resume.7d24e660249bc70d1938.pdf",
+    "static/media/linkedin.png": "/pages-practice/static/media/linkedin.6bd2afc872abe6892534.png",
+    "static/media/github.png": "/pages-practice/static/media/github.165fab436b69b95fe860.png",
     "index.html": "/pages-practice/index.html",
-    "main.b5c16702.css.map": "/pages-practice/static/css/main.b5c16702.css.map",
-    "main.8750b9e5.js.map": "/pages-practice/static/js/main.8750b9e5.js.map",
+    "main.a5a492ba.css.map": "/pages-practice/static/css/main.a5a492ba.css.map",
+    "main.d7e18121.js.map": "/pages-practice/static/js/main.d7e18121.js.map",
     "787.3535a2ce.chunk.js.map": "/pages-practice/static/js/787.3535a2ce.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5c16702.css",
-    "static/js/main.8750b9e5.js"
+    "static/css/main.a5a492ba.css",
+    "static/js/main.d7e18121.js"
   ]
 }
