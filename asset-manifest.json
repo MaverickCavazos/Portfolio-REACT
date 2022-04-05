@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/pages-practice/static/css/main.a5a492ba.css",
-    "main.js": "/pages-practice/static/js/main.d7e18121.js",
-    "static/js/787.3535a2ce.chunk.js": "/pages-practice/static/js/787.3535a2ce.chunk.js",
-    "static/media/profilepic.png": "/pages-practice/static/media/profilepic.144a1623c21fd92ea4d7.png",
-    "static/media/hello.png": "/pages-practice/static/media/hello.3f448fbf9004154ee445.png",
-    "static/media/coding-buddy-img.jpg": "/pages-practice/static/media/coding-buddy-img.9c6e6a361b67d6102124.jpg",
-    "static/media/stack.png": "/pages-practice/static/media/stack.e3e80979e4b5dc2c638e.png",
-    "static/media/covidtracker.jpg": "/pages-practice/static/media/covidtracker.7ebe165dcfdb059690e3.jpg",
-    "static/media/Resume.pdf": "/pages-practice/static/media/Resume.7d24e660249bc70d1938.pdf",
-    "static/media/linkedin.png": "/pages-practice/static/media/linkedin.6bd2afc872abe6892534.png",
-    "static/media/github.png": "/pages-practice/static/media/github.165fab436b69b95fe860.png",
-    "index.html": "/pages-practice/index.html",
-    "main.a5a492ba.css.map": "/pages-practice/static/css/main.a5a492ba.css.map",
-    "main.d7e18121.js.map": "/pages-practice/static/js/main.d7e18121.js.map",
-    "787.3535a2ce.chunk.js.map": "/pages-practice/static/js/787.3535a2ce.chunk.js.map"
+    "main.css": "/Portfolio-REACT/static/css/main.bb0be107.css",
+    "main.js": "/Portfolio-REACT/static/js/main.3ddd1c7d.js",
+    "static/js/787.3535a2ce.chunk.js": "/Portfolio-REACT/static/js/787.3535a2ce.chunk.js",
+    "static/media/profilepic.png": "/Portfolio-REACT/static/media/profilepic.144a1623c21fd92ea4d7.png",
+    "static/media/hello.png": "/Portfolio-REACT/static/media/hello.3f448fbf9004154ee445.png",
+    "static/media/coding-buddy-img.jpg": "/Portfolio-REACT/static/media/coding-buddy-img.9c6e6a361b67d6102124.jpg",
+    "static/media/stack.png": "/Portfolio-REACT/static/media/stack.e3e80979e4b5dc2c638e.png",
+    "static/media/covidtracker.jpg": "/Portfolio-REACT/static/media/covidtracker.7ebe165dcfdb059690e3.jpg",
+    "static/media/Resume.pdf": "/Portfolio-REACT/static/media/Resume.7d24e660249bc70d1938.pdf",
+    "static/media/linkedin.png": "/Portfolio-REACT/static/media/linkedin.6bd2afc872abe6892534.png",
+    "static/media/github.png": "/Portfolio-REACT/static/media/github.165fab436b69b95fe860.png",
+    "index.html": "/Portfolio-REACT/index.html",
+    "main.bb0be107.css.map": "/Portfolio-REACT/static/css/main.bb0be107.css.map",
+    "main.3ddd1c7d.js.map": "/Portfolio-REACT/static/js/main.3ddd1c7d.js.map",
+    "787.3535a2ce.chunk.js.map": "/Portfolio-REACT/static/js/787.3535a2ce.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5a492ba.css",
-    "static/js/main.d7e18121.js"
+    "static/css/main.bb0be107.css",
+    "static/js/main.3ddd1c7d.js"
   ]
 }
