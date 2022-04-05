@@ -137,13 +137,17 @@ form {
 
 input {
   font-size: 1rem;
-  padding: 6px 76px;
+  padding: 6px;
+  padding-right: 76px;
   border: 1px solid;
   outline: none;
   border-radius: 3px;
   transition: box-shadow 0.2s;
   margin: 5px;
+}
 
+.input-text {
+  color:rgb(0, 0, 0);
 }
 
 input:focus {

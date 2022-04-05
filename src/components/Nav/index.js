@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import Logo from '../images/White-logo.png';
 
 
+
 function Nav() {
     const navList = NavList.map(({ url, name }, index) => {
         return(
@@ -15,7 +16,7 @@ function Nav() {
     return (
         <header className="top-header">
             <h1 className='logo flex-row-all'>
-                <a className='logo no-underline' href="/About"><img className="logo" src={Logo} alt="Logo"/></a>
+                <a className='logo no-underline' href='/About'><img className="logo" src={Logo} alt="Logo"/></a>
             </h1>
             <nav className='nav-list'>
             <ul className="nav-list flex-row mx-2 no-underline">{navList}</ul>
