@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavList } from "./NavList"
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Logo from '../images/White-logo.png';
 
 
@@ -16,7 +16,7 @@ function Nav() {
     return (
         <header className="top-header">
             <h1 className='logo flex-row-all'>
-                <a className='logo no-underline' href='/About'><img className="logo" src={Logo} alt="Logo"/></a>
+                <Link className='logo no-underline' to={'/'}><img className="logo" src={Logo} alt="Logo"/></Link>
             </h1>
             <nav className='nav-list'>
             <ul className="nav-list flex-row mx-2 no-underline">{navList}</ul>
