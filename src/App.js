@@ -6,7 +6,8 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
-import Footer from './components/Footer'
+import Footer from './components/Footer';
+import Home from './components/Home';
 
 function App() {
 
@@ -15,7 +16,8 @@ function App() {
       <Router>
         <Nav/>
           <Routes>
-            <Route path="/" exact element={ <About/>} />
+            <Route path="/" exact element={ <Home/> } />
+            <Route path="/AboutMe" exact element={ <About/>} />
             <Route path="/Portfolio" exact element={ <Portfolio/> } />
             <Route path="/Contact" exact element={ <Contact/> } />
             <Route path="/Resume" exact element={ <Resume/> } />
