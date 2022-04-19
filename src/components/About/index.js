@@ -7,16 +7,46 @@ function About() {
     return (
         <header className="section-header" >
             <h2 className="section-h2">About Me</h2>
-            <div className='flex-container'>
-                    <img className="profile-pic" src={ProfilePic} alt="Pic of Me" />
+            <section className='flex-container'>
+                <img className="profile-pic" src={ProfilePic} alt="Pic of Me" />
                 <p className="about-info">
-                    This journey started as early as my first year of college. I always wanted to be able to create and do something that helps people. So I enrolled into the University of Texas at San Antonio as a Comp Science Major. <br />
-                    Only to later switch to psychology having thought that becoming a therapist was something I would instead want to do to fulfill these goals of helping people. I graduate with a bachelors in psychology and went on to <br />
-                    graduate school where I studied to get a master in clinical mental health counseling. The further I got into it the more I thought about what could have been if I stuck with the computer science route. So eventually <br /> 
-                    I decided to take a leap which lead me to enroll in a software-developer boot-camp at the University of Texas at Austin. Where I am currently studying to fulfill a dream to create, inspire, and help people around the world!
-
+                    Hello! My name is Maverick and I'm passionate about solving problems through the use of software. <br/>
+                    I graduated with a Bachelor's in Psychology with the intention of becoming a therapist, but I had <br/>
+                     always been drawn to technology and interested in making a career out of it.<br/>
+                     <br/>
+                     After realizing this, I decided to take the leap and enroll into a software developer bootcamp at the
+                    <br/> University of Texas at Austin where I am currently studying to fulfill my dream to create, inspire, <br/>
+                     and help people around the world. My journey into this field was anything but linear, but my passion <br/>
+                     for helping others combined with my love of technology brought me to where I am today.<br/>
+                    <br/>
+                    <p>My portfolio you're currently viewing, along with my listed projects, display some of the skills <br/> 
+                    I've developed throughout my Full-stack Bootcamp. Here are the highlights:</p>
+                    <div className='skills'>
+                        <ul className='skills-one'>
+                            <li className='single-skill'>
+                                Javascript
+                            </li>
+                            <li className='single-skill'>
+                                MERN Stack
+                            </li>
+                            <li className='single-skill'>
+                                React
+                            </li>
+                        </ul>
+                        <ul className='skills-two'>
+                            <li className='single-skill'>
+                                Node.js
+                            </li>
+                            <li className='single-skill'>
+                                SQL
+                            </li>
+                            <li className='single-skill'>
+                                Sequalize
+                            </li>
+                        </ul>
+                    </div>
                 </p>
-            </div>
+            </section>
         </header>
     );
 }

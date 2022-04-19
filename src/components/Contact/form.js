@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import { validateEmail } from '../../utils/helpers';
 
@@ -10,6 +10,12 @@ function ContactForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    Array.from(document.querySelectorAll("input")).forEach(
+      input => (input.value = "")
+    );
+   const message = document.getElementById('message');
+   message.value = '';
+    
     if (!errorMessage) {
       console.log('Submit Form', formState);
     }
@@ -39,18 +45,18 @@ function ContactForm() {
 
   return (
     <section className='form-section'>
-      <form id="contact-form" onSubmit={handleSubmit}>
+      <form action="https://formsubmit.co/mav33987@gmail.com" method="POST" id="contact-form" onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="name">Name:</label>
-          <input className="input-text" type="text" name="name" defaultValue={name} onBlur={handleChange} />
+          
+          <input className="input-text" type="text" name="name" defaultValue={name} onBlur={handleChange} placeholder="Name" required/>
         </div>
         <div>
-          <label htmlFor="email">Email address:</label>
-          <input className="input-text" type="email" name="email" defaultValue={email} onBlur={handleChange} />
+          
+          <input className="input-text" type="email" name="email" defaultValue={email} onBlur={handleChange} placeholder="Email" required/>
         </div>
         <div>
-          <label htmlFor="message">Message:</label>
-          <textarea className="input-text" name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+          
+          <textarea id="message" className="input-text" name="message" rows="5" defaultValue={message} onBlur={handleChange} placeholder="Message"/>
         </div>
         {errorMessage && (
           <div>
