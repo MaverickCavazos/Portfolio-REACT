@@ -11,7 +11,7 @@ function Portfolio() {
                 <input className="coding-button" type="submit" value="Coding-Buddy" />
             </form>
             <form action="https://guarded-headland-93069.herokuapp.com/">
-                <input className="coding-button" type="submit" value="Personal-Chef" />
+                <input className="chef-button" type="submit" value="Personal-Chef" />
             </form>
         </header>
     );

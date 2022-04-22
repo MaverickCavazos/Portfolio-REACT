@@ -314,6 +314,22 @@ textarea {
   filter: grayscale(60%);
 }
 
+.chef-button {
+  background: url("./components/images/personal-chef.png");
+  padding: 151px 200px;
+  transition-duration: 1s;
+  color: #fff;
+  font-weight: bold;
+  font-size: 19px;
+  background-position: -420px -20px;
+  filter: opacity(35%);
+  filter: grayscale(60%);
+}
+
+.chef-button:hover {
+  box-shadow: 10px 10px 5px rgb(79, 112, 126);
+}
+
 .coding-button:hover {
   box-shadow: 10px 10px 5px rgb(79, 112, 126);
 }
