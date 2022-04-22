@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/Portfolio-REACT/static/css/main.d5d20222.css",
-    "main.js": "/Portfolio-REACT/static/js/main.6844bdd0.js",
+    "main.css": "/Portfolio-REACT/static/css/main.9453fdad.css",
+    "main.js": "/Portfolio-REACT/static/js/main.a286bd80.js",
     "static/js/787.3535a2ce.chunk.js": "/Portfolio-REACT/static/js/787.3535a2ce.chunk.js",
     "static/media/profilepic.png": "/Portfolio-REACT/static/media/profilepic.144a1623c21fd92ea4d7.png",
+    "static/media/personal-chef.png": "/Portfolio-REACT/static/media/personal-chef.16be242a7c21b7e04e64.png",
     "static/media/coding-buddy-img.jpg": "/Portfolio-REACT/static/media/coding-buddy-img.9c6e6a361b67d6102124.jpg",
     "static/media/Resume.pdf": "/Portfolio-REACT/static/media/Resume.115a7d61c4c2d6f6bc9b.pdf",
     "static/media/stack.png": "/Portfolio-REACT/static/media/stack.e3e80979e4b5dc2c638e.png",
@@ -11,12 +12,12 @@
     "static/media/linkedin.png": "/Portfolio-REACT/static/media/linkedin.6bd2afc872abe6892534.png",
     "static/media/github.png": "/Portfolio-REACT/static/media/github.165fab436b69b95fe860.png",
     "index.html": "/Portfolio-REACT/index.html",
-    "main.d5d20222.css.map": "/Portfolio-REACT/static/css/main.d5d20222.css.map",
-    "main.6844bdd0.js.map": "/Portfolio-REACT/static/js/main.6844bdd0.js.map",
+    "main.9453fdad.css.map": "/Portfolio-REACT/static/css/main.9453fdad.css.map",
+    "main.a286bd80.js.map": "/Portfolio-REACT/static/js/main.a286bd80.js.map",
     "787.3535a2ce.chunk.js.map": "/Portfolio-REACT/static/js/787.3535a2ce.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5d20222.css",
-    "static/js/main.6844bdd0.js"
+    "static/css/main.9453fdad.css",
+    "static/js/main.a286bd80.js"
   ]
 }
