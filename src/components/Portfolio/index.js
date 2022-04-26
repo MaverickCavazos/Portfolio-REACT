@@ -16,8 +16,8 @@ function Portfolio() {
                         <div class="grid-child-posts">hi</div>
                     </div>
                     <ul class="social-icons">
-                        <li><a href="https://maverickcavazos.github.io/COVID-Tracker/" src={Internet}><i class="fa fa-internet"></i></a></li>
-                        <li><a href="https://github.com/MaverickCavazos/COVID-Tracker"  src={Github}><i class="fa fa-github"></i></a></li>
+                        <li><a href="https://maverickcavazos.github.io/COVID-Tracker/"><img src={Internet} width="30" height="30" class="fa fa-internet"></img></a></li>
+                        <li><a href="https://github.com/MaverickCavazos/COVID-Tracker" ><img src={Github} width="32" height="32" class="fa fa-github"></img></a></li>
                     </ul>
                 </div>
 
@@ -27,8 +27,8 @@ function Portfolio() {
                          <div class="grid-child-posts">hi</div>
                     </div>
                     <ul class="social-icons">
-                        <li><a href="https://coding-bud.herokuapp.com/" src={Internet}><i class="fa fa-internet"></i></a></li>
-                        <li><a href="https://github.com/MaverickCavazos/Coding-buddy" src={Github}><i class="fa fa-github"></i></a></li>
+                        <li><a href="https://coding-bud.herokuapp.com/"><img src={Internet} width="30" height="30" class="fa fa-internet"></img></a></li>
+                        <li><a href="https://github.com/MaverickCavazos/Coding-buddy"><img src={Github} width="32" height="32" class="fa fa-github"></img></a></li>
                     </ul>
                 </div>
 
@@ -38,8 +38,8 @@ function Portfolio() {
                         <div class="grid-child-posts">hi</div>
                     </div>
                     <ul class="social-icons">
-                        <li><a href="https://guarded-headland-93069.herokuapp.com/" src={Internet}><i class="fa fa-internet"></i></a></li>
-                        <li><a href="https://github.com/MaverickCavazos/personal-chef" src={Github}><i class="fa fa-github"></i></a></li>
+                        <li><a href="https://guarded-headland-93069.herokuapp.com/"><img src={Internet} width="30" height="30" class="fa fa-internet"></img></a></li>
+                        <li><a href="https://github.com/MaverickCavazos/personal-chef"><img src={Github} width="32" height="32" class="fa fa-github"></img></a></li>
                     </ul>
                 </div>
 
@@ -49,7 +49,7 @@ function Portfolio() {
                         <div class="grid-child-posts">hi</div>
                     </div>
                     <ul class="social-icons">
-                        <li><a href="https://github.com/MaverickCavazos/tech-blog" src={Github}><i class="fa-github"></i></a></li>
+                        <li><a href="https://github.com/MaverickCavazos/tech-blog"><img src={Github} width="32" height="32" class="tech-github"></img></a></li>
                     </ul>
                 </div>
 

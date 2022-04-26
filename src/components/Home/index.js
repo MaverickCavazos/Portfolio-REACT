@@ -3,10 +3,10 @@ import ProfilePic from '../images/profilepic.png';
 
 function Home() {
     return (
-        <header className=" container ml-5">
-            <div className='row d-flex align-items-center w-100'>
+        <header className="home-container">
+            <div className='home-info-container'>
 
-                <div className='col-6'>
+                <div className=''>
                     <h2 className=" ">Hello, my name is</h2>
                     <h1 className=' '>Mavierick Cavazos</h1>
                     <p>
@@ -19,7 +19,7 @@ function Home() {
                     </p>
                 </div>
 
-                <div className='col-6'>
+                <div className='pic-container'>
                     <img className="profile-pic" src={ProfilePic} alt="Pic of Me" />
 
                 </div>

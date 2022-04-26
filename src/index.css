@@ -333,8 +333,6 @@ textarea {
 }
 
 
-
-
 .social-icons-footer:hover {
   transition-duration: .3s;
   transform: translate(0, -5px);
@@ -344,6 +342,8 @@ textarea {
   position: relative;
   bottom: 2px;
 }
+
+/*project section css */
 
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500&display=swap");
 
@@ -385,11 +385,27 @@ textarea {
   font-size: 1em;
 }
 
-.social-icons i {
+.fa-internet {
   color: #fff;
   position: absolute;
-  top: 0.95em;
-  left: 0.96em;
+  top: 0.49em;
+  left: 0.55em;
+  transition: all 265ms ease-out;
+}
+
+.fa-github {
+  color: #fff;
+  position: absolute;
+  top: 0.4em;
+  left: 0.4em;
+  transition: all 265ms ease-out;
+}
+
+.tech-github {
+  color: #fff;
+  position: absolute;
+  top: 0.36em;
+  left: 0.45em;
   transition: all 265ms ease-out;
 }
 
@@ -415,10 +431,10 @@ textarea {
   transition: all 265ms ease-in;
 }
 
-.social-icons a:hover i {
+.social-icons a:hover img {
   transform: scale(2.2);
   -ms-transform: scale(2.2);
-  -webkit-transform: scale(2.2);
+  -webkit-transform: scale(1.5);
   color: #ff003c;
   background: -webkit-linear-gradient(45deg, #06345a, #e7f2fc);
   -webkit-background-clip: text;
@@ -441,5 +457,13 @@ textarea {
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   font-size: 1.2em;
+}
+
+/* more home page css*/
+
+.home-container {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
 }
 
