@@ -124,6 +124,7 @@
 
 .about-info {
   display: block; 
+  float: left;
   margin-block-end: 1em;
   margin-inline-start: 80px;
   margin-inline-end: 0px;
@@ -288,43 +289,16 @@ textarea {
   padding: 10px;
 }
 
-.covid-button {
-  background: url("./components/images/covidtracker.jpg");
-  padding: 150px 200px;
-  font-weight: bold;
-  font-size: 20px;
-  transition-duration: 1s;
-  filter: opacity(35%);
-  filter: grayscale(60%);
+.portfolio-container {
+  margin: 24px;
+  
 }
+
 
 .covid-button:hover {
-  box-shadow: 10px 10px 5px rgb(79, 112, 126);
+  box-shadow: 10px 10px 5px rgb(0, 0, 0);
 }
 
-.coding-button {
-  background: url("./components/images/coding-buddy-img.jpg");
-  padding: 151px 200px;
-  transition-duration: 1s;
-  color: #fff;
-  font-weight: bold;
-  font-size: 19px;
-  background-position: -420px -20px;
-  filter: opacity(35%);
-  filter: grayscale(60%);
-}
-
-.chef-button {
-  background: url("./components/images/personal-chef.png");
-  padding: 151px 200px;
-  transition-duration: 1s;
-  color: #fff;
-  font-weight: bold;
-  font-size: 19px;
-  background-position: -420px -20px;
-  filter: opacity(35%);
-  filter: grayscale(60%);
-}
 
 .chef-button:hover {
   box-shadow: 10px 10px 5px rgb(79, 112, 126);
@@ -361,12 +335,111 @@ textarea {
 
 
 
-.social-icons:hover {
+.social-icons-footer:hover {
   transition-duration: .3s;
   transform: translate(0, -5px);
 }
 
 .stack {
   position: relative;
-  bottom: 9.5px;
+  bottom: 2px;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500&display=swap");
+
+.container-projects {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-gap: 50px;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Baloo Paaji 2', cursive;
+}
+
+.card-project {
+  background-color: #222831;
+  height: auto;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+.card__name {
+  margin-top: 15px;
+  font-size: 1.5em;
+}
+
+.social-icons {
+  padding: 0;
+  list-style: none;
+  margin: 1em;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin: 0.15em;
+  position: relative;
+  font-size: 1em;
+}
+
+.social-icons i {
+  color: #fff;
+  position: absolute;
+  top: 0.95em;
+  left: 0.96em;
+  transition: all 265ms ease-out;
+}
+
+.social-icons a {
+  display: inline-block;
+}
+
+.social-icons a:before {
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  content: " ";
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  display: block;
+  background: linear-gradient(45deg, #06345a, #e7f2fc);
+  transition: all 265ms ease-out;
+}
+
+.social-icons a:hover:before {
+  transform: scale(0);
+  transition: all 265ms ease-in;
+}
+
+.social-icons a:hover i {
+  transform: scale(2.2);
+  -ms-transform: scale(2.2);
+  -webkit-transform: scale(2.2);
+  color: #ff003c;
+  background: -webkit-linear-gradient(45deg, #06345a, #e7f2fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 265ms ease-in;
+}
+
+.grid-container {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.grid-child-posts {
+  width: 100%;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  font-size: 1.2em;
+}
+

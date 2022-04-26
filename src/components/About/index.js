@@ -8,7 +8,7 @@ function About() {
         <header className="section-header" >
             <h2 className="section-h2">About Me</h2>
             <section className='flex-container'>
-                <img className="profile-pic" src={ProfilePic} alt="Pic of Me" />
+               
                 <p className="about-info">
                     Hello! My name is Maverick and I'm passionate about solving problems through the use of software. <br/>
                     I graduated with a Bachelor's in Psychology with the intention of becoming a therapist, but I had <br/>

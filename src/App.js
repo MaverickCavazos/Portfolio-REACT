@@ -19,7 +19,7 @@ function App() {
           <Routes>
             <Route path="/" exact element={ <Home/> } />
             <Route path="/AboutMe" exact element={ <About/>} />
-            <Route path="/Portfolio" exact element={ <Portfolio/> } />
+            <Route path="/Projects" exact element={ <Portfolio/> } />
             <Route path="/Contact" exact element={ <Contact/> } />
             <Route path="/Resume" exact element={ <Resume/> } />
             <Route path="/Portfolio-REACT" element={<Navigate replace to="/" />} />

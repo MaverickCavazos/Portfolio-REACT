@@ -4,8 +4,8 @@ export const NavList = [
         url: "/AboutMe"
     },
     {
-        name: "Portfolio",
-        url: "/Portfolio"
+        name: "Projects",
+        url: "/Projects"
     },
     {
         name: "Resume",
