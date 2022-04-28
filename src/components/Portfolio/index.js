@@ -53,6 +53,26 @@ function Portfolio() {
                     </ul>
                 </div>
 
+                <div class="card-project">
+                    <p class="card__name">Express.js-Note-Taker</p>
+                    <div class="grid-container">
+                        <div class="grid-child-posts">hi</div>
+                    </div>
+                    <ul class="social-icons">
+                        <li><a href="https://github.com/MaverickCavazos/express-challenge"><img src={Github} width="32" height="32" class="tech-github"></img></a></li>
+                    </ul>
+                </div>
+
+                <div class="card-project">
+                    <p class="card__name">SQL-Employee-Tracker</p>
+                    <div class="grid-container">
+                        <div class="grid-child-posts">hi</div>
+                    </div>
+                    <ul class="social-icons">
+                        <li><a href="https://github.com/MaverickCavazos/Employee-tracker"><img src={Github} width="32" height="32" class="tech-github"></img></a></li>
+                    </ul>
+                </div>
+
             </div>
         </header>
     );

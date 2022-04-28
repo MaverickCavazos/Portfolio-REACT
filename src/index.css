@@ -122,16 +122,17 @@
   max-width: 750px;
 }
 
-.about-info {
+.about-me-info {
   display: block; 
   float: left;
   margin-block-end: 1em;
-  margin-inline-start: 80px;
-  margin-inline-end: 0px;
+  margin-inline-start: -150px;
+  margin-inline-end: 270px;
 }
 
 .skills {
-  width: 89%;
+  float: right;
+  
 
 }
 
@@ -461,9 +462,29 @@ textarea {
 
 /* more home page css*/
 
-.home-container {
-  display:grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
+/* .home-page-container {
+  display: flex;
+} */
+
+
+
+.pic-container {
+
+float: right;
+}
+
+.about-info {
+  display: block; 
+  float: left;
+  margin-block-end: 1em;
+  margin-inline-start: -60px;
+  margin-inline-end: 400px;
+}
+
+.flex-container-home {
+  display: flex;
+  margin: auto;
+  padding: 160px 0px;
+  max-width: 1200px;
 }
 
