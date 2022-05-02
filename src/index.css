@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Satisfy&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Satisfy&family=Source+Code+Pro&family=Varela+Round&display=swap");
 
 * {
   color: #ffffff;
@@ -98,14 +98,15 @@
 }
 
 .hello {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Source Code Pro', monospace;
   font-size: 40px;
 
 }
 
 .name {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Source Code Pro', monospace;
   font-size: 52px;
+  color: #a1cdfe;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Satisfy&family=Varela+Round&display=swap");
@@ -178,7 +179,7 @@
 
 .profile-pic {
   position: relative;
-  border-radius: 28px;
+  border-radius: 8px;
   width: 300px;
   height: 350px;
   overflow: hidden;
@@ -250,13 +251,14 @@ textarea {
 
 .form-button {
   color: #fff;
-  background-color: rgb(54, 71, 87);
+  background-color: rgb(43, 58, 71);
   transition-duration: 1s;
-  padding: 8px 25px;
+  padding: 10px 30px;
   border-radius: 6px;
   margin-top: 20px;
   margin-bottom: 8px;
-  margin-left: 209px;
+  margin-left: 200px;
+  border:none;
 }
 
 
@@ -286,7 +288,7 @@ textarea {
 .resume-button {
   position: relative;
   color: #fff;
-  background-color: rgb(54, 71, 87);
+  background-color: rgb(43, 58, 71);
   transition-duration: 1s;
   padding: 10px;
   border-radius: 6px;
@@ -294,6 +296,7 @@ textarea {
   margin-bottom: 8px;
   margin-left: 36%;
   z-index: 1;
+  border:none;
 }
 
 .resume-button:hover {
@@ -348,7 +351,7 @@ textarea {
 
 .footerContent {
   float: left;
-  width: 100%;
+  width: 98%;
   padding: 2px 0;
 }
 
@@ -376,15 +379,15 @@ textarea {
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500&display=swap");
 
 .container-projects {
-  display: grid;
-  grid-template-columns: 300px 300px 300px;
-  grid-gap: 50px;
-  justify-content: center;
-  align-items: center;
+  margin: auto;
+  width: 40%;
+  height: 60vh;
+  padding-top: 70px;
 }
 
+
 .card-project {
-  background-color: #222831;
+  background-color: #1e2531;
   height: auto;
   border-radius: 5px;
   display: flex;
@@ -395,8 +398,9 @@ textarea {
 }
 
 .card__name {
+  font-family: 'Source Code Pro', monospace;
   margin-top: 15px;
-  font-size: 1.5em;
+  font-size: 30px;
 }
 
 .social-icons {
@@ -415,7 +419,7 @@ textarea {
 .fa-internet {
   color: #fff;
   position: absolute;
-  top: 0.49em;
+  top: 0.42em;
   left: 0.55em;
   transition: all 265ms ease-out;
 }
@@ -423,7 +427,7 @@ textarea {
 .fa-github {
   color: #fff;
   position: absolute;
-  top: 0.4em;
+  top: 0.355em;
   left: 0.4em;
   transition: all 265ms ease-out;
 }
@@ -449,7 +453,7 @@ textarea {
   height: 45px;
   border-radius: 100%;
   display: block;
-  background: linear-gradient(45deg, #06345a, #e7f2fc);
+  background: linear-gradient(45deg, #1e2531, #a1cdfe);
   transition: all 265ms ease-out;
 }
 
@@ -463,28 +467,27 @@ textarea {
   -ms-transform: scale(2.2);
   -webkit-transform: scale(1.5);
   color: #ff003c;
-  background: -webkit-linear-gradient(45deg, #06345a, #e7f2fc);
+  background: -webkit-linear-gradient(45deg, #1e2531, #a1cdfe);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 265ms ease-in;
 }
 
 .grid-container {
-  text-align: center;
-  font-size: 1.2em;
+  margin: auto;
+  width: 50%;
+  padding: 28px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script:wght@600;700&family=Satisfy&family=Source+Code+Pro:wght@300;400&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script:wght@600;700&family=Saira+Condensed&family=Satisfy&family=Source+Code+Pro:wght@300;400&family=Varela+Round&display=swap');
 .grid-child-posts {
-  width: 100%;
   text-align: center;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 18px;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
-  font-size: 1.2em;
-}
+
 
 /* more home page css*/
 
@@ -495,7 +498,6 @@ textarea {
 
 
 .pic-container {
-
 float: right;
 }
 
@@ -504,13 +506,57 @@ float: right;
   float: left;
   margin-block-end: 1em;
   margin-inline-start: -60px;
-  margin-inline-end: 400px;
+  margin-inline-end: 150px;
 }
 
 .flex-container-home {
   display: flex;
   margin: auto;
   padding: 160px 0px;
-  max-width: 1200px;
+  max-width: 1000px;
 }
 
+.back-carousel-button {
+  color: #fff;
+  background-color: rgb(43, 58, 71);
+  transition-duration: 1s;
+  padding: 8px 25px;
+  border-radius: 6px;
+  border:none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  
+}
+
+.next-carousel-button {
+  color: #fff;
+  background-color: rgb(43, 58, 71);
+  transition-duration: 1s;
+  padding: 8px 25px;
+  border-radius: 6px;
+  border:none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+  
+}
+
+.back-carousel-button:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.next-carousel-button:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.carousel-buttons {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  
+}
