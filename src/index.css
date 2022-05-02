@@ -1,13 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Satisfy&display=swap");
+
+
 * {
   color: #ffffff;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Varela Round', sans-serif;
 }
 
 .body {
-  background-color: #2e3440;
+  background-color: #1e2531;
   overflow: hidden;
   background-position: center bottom;
   min-height: 100vh;
@@ -94,6 +97,24 @@
   margin-left: 20px;
 }
 
+.hello {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+
+}
+
+.name {
+  font-family: 'Dancing Script', cursive;
+  font-size: 52px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Satisfy&family=Varela+Round&display=swap");
+
+.home-about {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 18px;
+}
+
 .section-h2 {
   padding-bottom: 15px;
   text-align: center;
@@ -123,6 +144,8 @@
 }
 
 .about-me-info {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 18px;
   display: block; 
   float: left;
   margin-block-end: 1em;
@@ -155,14 +178,14 @@
 
 .profile-pic {
   position: relative;
-  border-radius: 10px;
-  width: 200px;
-  height: 210px;
+  border-radius: 28px;
+  width: 300px;
+  height: 350px;
   overflow: hidden;
   object-fit: cover;
-  object-position: 100% 0px;
-  filter: contrast(88%);
-  top: -20px;
+  object-position: 100% px;
+  filter: contrast(90%);
+  
 }
 
 .contact-question {
@@ -229,11 +252,11 @@ textarea {
   color: #fff;
   background-color: rgb(54, 71, 87);
   transition-duration: 1s;
-  padding: 8px 15px;
+  padding: 8px 25px;
   border-radius: 6px;
   margin-top: 20px;
   margin-bottom: 8px;
-  margin-left: 8px;
+  margin-left: 209px;
 }
 
 
@@ -261,6 +284,7 @@ textarea {
 }
 
 .resume-button {
+  position: relative;
   color: #fff;
   background-color: rgb(54, 71, 87);
   transition-duration: 1s;
@@ -269,6 +293,7 @@ textarea {
   margin-top: 20px;
   margin-bottom: 8px;
   margin-left: 36%;
+  z-index: 1;
 }
 
 .resume-button:hover {
@@ -314,7 +339,7 @@ textarea {
 }
 
 .footer {
-  background-color: #2e3440;
+  background-color: #1e2531;
   position: fixed;
   bottom: 0px;
   width: 100%;
@@ -332,6 +357,8 @@ textarea {
   width: 100%;
   text-align: center;
 }
+
+
 
 
 .social-icons-footer:hover {
@@ -354,7 +381,6 @@ textarea {
   grid-gap: 50px;
   justify-content: center;
   align-items: center;
-  font-family: 'Baloo Paaji 2', cursive;
 }
 
 .card-project {

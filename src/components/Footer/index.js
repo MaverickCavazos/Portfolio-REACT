@@ -8,7 +8,7 @@ function Footer() {
         <footer>
             <div className="footer">
                 <div className="footerContent">
-                    <ul>
+                    <ul className='vertical-footer'>
                         <a href="https://github.com/MaverickCavazos">
                             <img className="social-icons-footer" alt="github" src={Github}
                                 width="40" height="40" />
