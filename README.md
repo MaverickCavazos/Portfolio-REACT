@@ -18,6 +18,6 @@ Nothing is required to view or run this application if you are going to view it 
 This application is used to display all of my work throughout the University of Texas at Austin web-developer boot-camp. You can view it either the deployed github pages link or by following the installation instructions above.
 
 
-Image of the deployed app ![Screenshot](./src/components/images/screenshot.png)
+
 
 link to deployed app via github pages https://maverickcavazos.github.io/Portfolio-REACT/
