@@ -1,7 +1,7 @@
-## Coding-Buddy
+## Maverick's Portfolio
 
 ## description
-This is a updated and upgraded portfolio from the previous one which only uses html and css. This was create using largely React, JSX, and some CSS sprinkled in. My portfolio contains a About Me, Portfolio (which includes some of my projects), Resume, and Contact Me section. Each section will have the Navbar visibleat the top and my social media links visible at the booter via the footer.
+This was create using largely React, JSX, and some CSS sprinkled in. My portfolio contains a About Me, Portfolio (which includes some of my projects), Resume, and Contact Me section. Each section will have the Navbar visibleat the top and my social media links visible at the booter via the footer.
 
 
 ## Table of Contents

@@ -9,7 +9,7 @@ function Resume() {
                 Below is a snapshot of my work history, proficiencies, and education. If you would like to download a copy click the button!
             </p>
            
-      <iframe className="resume"src="https://drive.google.com/file/d/1-ZegopvruWZmehaEpN_t3XeD2MAwTG4_/preview" width="900" height="600" allow="autoplay"></iframe>
+      <iframe className="resume"src="https://drive.google.com/file/d/1f83YhVUHJVDP3RtY_cxaGbqTS3FiW8sI/preview" width="900" height="600" allow="autoplay"></iframe>
       <form  method="get" action={Myresume}>
          <button className="resume-button" type="submit">Download Resume</button>
       </form>
